@@ -3,7 +3,6 @@ xhost +local:$USER
 xlist=$(xauth nlist $DISPLAY)
 uid=$(id -u)
 gid=$(id -g)
-version=$(grep "version=" Dockerfile|sed -e "s/^[^\"]\+\"//"|sed -e "s/\".*//")
 docker run -it \
   -e DISPLAY=$DISPLAY \
   -e XAUTHORITY=/.Xauthority \
@@ -18,4 +17,4 @@ docker run -it \
   --cpuset-cpus 0 \
   --memory 512mb \
   --cap-add=SYS_ADMIN \
-  runjak/docker-signal:$version
+  runjak/docker-signal:latest
