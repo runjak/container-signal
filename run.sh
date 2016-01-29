@@ -1,12 +1,10 @@
 #!/bin/bash
 xhost +local:$USER
-xlist=$(xauth nlist $DISPLAY)
 uid=$(id -u)
 gid=$(id -g)
 docker run -it \
   -e DISPLAY=$DISPLAY \
   -e XAUTHORITY=/.Xauthority \
-  -e XLIST="\"$xlist\"" \
   -e USER_UID=$uid \
   -e USER_GID=$gid \
   -e USER=$USER \
