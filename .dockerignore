@@ -1,0 +1,10 @@
+.bash_logout
+.bashrc
+.cache
+.config
+.dockerignore
+.local
+.pki
+.profile
+build.sh
+run.sh
