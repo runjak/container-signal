@@ -8,3 +8,5 @@ Note that browser updates are still in the hands of the user.
 This repo is inspired by:
 * [jfrazelle/dockerfiles](https://github.com/jfrazelle/dockerfiles)
 * [hurricanehrndz/docker-browser-box](https://github.com/hurricanehrndz/docker-browser-box)
+
+For instructions on running this container please consult [run.sh](https://github.com/runjak/docker-signal/blob/master/run.sh).
