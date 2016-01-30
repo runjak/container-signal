@@ -8,7 +8,7 @@ LABEL version="1.0.0" \
 COPY confs/local.conf /etc/fonts/local.conf
 
 RUN apt-get update \
-  && apt-get install -y chromium libexif12 sudo \
+  && apt-get install -y chromium libexif12 \
   && rm -rf /var/lib/apt/lists/*
 
 COPY entrypoint.sh /

@@ -43,4 +43,4 @@ grant_access_to_video_devices() {
 
 create_user
 grant_access_to_video_devices
-sudo -u ${USER} /usr/bin/chromium --profile-directory=Default --app-id=bikioccmkafdpakkkcpdbppfkghcmihk
+su -c "/usr/bin/chromium --profile-directory=Default --app-id=bikioccmkafdpakkkcpdbppfkghcmihk" ${USER}
