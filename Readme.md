@@ -1,4 +1,4 @@
-Docker-signal
+docker-signal
 ===
 
 This repo provides a docker container that aims to run the Signal chrome app in a docker container.

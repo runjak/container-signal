@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t runjak/docker-signal .
+docker build -t runjak/signal .
