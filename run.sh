@@ -15,4 +15,5 @@ docker run -it \
   --cpuset-cpus 0 \
   --memory 512mb \
   --cap-add=SYS_ADMIN \
+  --rm \
   runjak/signal:latest
